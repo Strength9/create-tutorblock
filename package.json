@@ -1,0 +1,33 @@
+{
+    "name": "create-tutorblock",
+    "description": "Quickly create an a new WordPress Block that uses Advanced Custom Fields (ACF) and utilised block.json and block-specific CSS.",
+    "version": "1.0.9",
+    "main": "./lib/create-acf-block-json.js",
+    "bin": {
+        "create-tutorblock": "./bin/index.js"
+    },
+    "keywords": [
+        "Strength 9"
+    ],
+    "scripts": {
+        "test": "echo \"No test specified\""
+    },
+    "files": [
+        "/lib",
+        "/bin",
+        "README.md"
+    ],
+    "engines": {
+        "node": ">=15.0.0"
+    },
+    "author": "Dave Pratt <Strength9@users.noreply.github.com>",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Strength9/create-tutorblock.git"
+    },
+    "dependencies": {
+        "prompts": "^2.4.2"
+    },
+    "devDependencies": {}
+}
